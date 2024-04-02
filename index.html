@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TARGET TRUSTED</h1>
+    </header>
+    <main>
+        <div class="caixaBusca">
+            <input class="caixaBusca__input" type="number" name="caixaBusca__input" id="caixaBusca__input" placeholder="ID/Nome do Pokémon">
+            <input class="caixaBusca__botao" type="button" value="Buscar" onclick="botaoBuscar()">
+        </div>
+
+        <div class="pokedex">
+            <div class="pokedex__blue-led"></div>
+            <div class="pokedex__visor">
+                <img id="imagemPokemon" src="" alt="">
+            </div>
+            <div id="nomePokemon">
+            </div>
+            <div id="tipoPokemon">
+            </div>
+        </div>
+    </main>
+    
+</body>
+<script src="./script.js"></script>
+</html>
